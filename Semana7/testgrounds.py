@@ -19,11 +19,10 @@ def hacer_ping(host):
     comando = f"ping {parametro} 1 {host}"
     respuesta = os.system(comando)
     
-    # Si el retorno es 0, el host está activo
     if respuesta == 0:
-        print(f"¡{host} está encendido y responde!")
+        print(f"{host} esta activo 💚")
     else:
-        print(f"¡{host} no responde o está apagado!")
+        print(f"¡{host} no responde 💔! / Iniciando diagnostico..")
 
 # Prueba la función
 hacer_ping("https://smscompanyip.onrender.com")
