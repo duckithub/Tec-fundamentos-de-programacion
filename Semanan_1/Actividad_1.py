@@ -2,7 +2,7 @@
 GREEN = "\033[32m"
 RESET = "\033[0m"
 
-print(" ✿ ★<CALCULADORA DE TIEMPO DIGITAL>★ ✿")
+print("✿ ★<CALCULADORA DE TIEMPO DIGITAL>★ ✿")
 
 nombre = input("Ingresa tu nombre: ")
 
