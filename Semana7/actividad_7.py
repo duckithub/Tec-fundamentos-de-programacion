@@ -4,10 +4,17 @@
 
 ## TODAS LAS VARIABLES SON PROVISIONALES Y UNA IDEA DE COMO PODRIA ESTAR ESTRUCTURADO EL CODIGO FINAl o(≧口≦)o y posiblemente no compile asi como esta 
 
+
+#========== importaciones ==========
+import os                           
+import platform
+import time
+#===================================
+
+#========== colores ==========
 GREEN = "\033[32m"
 RESET = "\033[0m"
-
-import time
+#=============================
 
 #aqui va el codigo necesario para hacer el login del servidor y para que pueda empezar el "heartbeat" osea el ping constante.. sigo trabajando en como poner un servidor （；´д｀）ゞ
 
